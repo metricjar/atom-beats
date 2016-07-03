@@ -16,8 +16,5 @@ filebeat:
 output:
   ### Logstash as output
   logstash:
-    # The Logstash hosts
+    # The Logstash host (auto mapped by docker)
     hosts: ["logstash:5044"]
-    
-
-    
