@@ -3,6 +3,7 @@ filebeat:
   # List of prospectors to fetch data.
   prospectors:
     # Each - is a prospector. Below are the prospector specific configurations
+    # for more info: https://github.com/elastic/filebeat/blob/master/etc/filebeat.yml
     -
       paths:
         - /var/log/log-from-host
